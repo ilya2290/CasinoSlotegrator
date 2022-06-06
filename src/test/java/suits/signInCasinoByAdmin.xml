@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="signInCasinoByAdmin">
+
+
+    <test name="Sign in into system">
+        <classes>
+            <class name="tests.SignIn.Test_0001_SignIn"/>
+        </classes>
+    </test>
+
+
+    <test name="Check players table appear in">
+        <classes>
+            <class name="tests.SignIn.Test_0002_CheckPlayersTable"/>
+        </classes>
+    </test>
+
+
+    <test name="Check players table Registration Date can sorts buy Desc">
+        <classes>
+            <class name="tests.SignIn.Test_0003_CheckRegistrationDateByDesc"/>
+        </classes>
+    </test>
+
+
+</suite>
+
